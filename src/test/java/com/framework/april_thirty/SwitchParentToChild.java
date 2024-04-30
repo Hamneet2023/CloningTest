@@ -42,7 +42,7 @@ public class SwitchParentToChild {
 
 		WebElement text = wd.findElement(By.id("sampleHeading"));
 		System.out.println(text.getText());
-		System.out.println(text.getText());
+		System.out.println(text.getText()+"hiii");
 
 		// Switch to parent window
 		wd.switchTo().window(parentWindow);
